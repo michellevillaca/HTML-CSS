@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Aqui eu digo que, se a tela de exibição for menor que 750 px, eu quero que seja exibida uma imagem menor-->
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--Aqui eu digo que, se o tamanho máximo da minha tela for 1050px (que é quase o tamanho da minha imagem grande), eu quero que ele carregue uma imagem menor (a de tamanho M)-->
+            <img src="imagens/foto-g.png" alt="imagem flexível">
+        </picture>
+    </p>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Inconsciente.mp3" controls></audio>
+    <!--MP3, WAV, OGG: três formatos de áudio para ter compatibilidade com qualquer navegador-->
+    <!--<audio preload="metadata" autoplay controls loop>
+        <source src="midia/Inconsciente.mp3" type="audio.mpeg">
+        <source src="midia/Inconsciente.ogg" type="audio.ogg">
+        <source src="midia/Inconsciente.wav" type="audio.wav">
+        <p>Infelizmente, seu navegador não consegue reproduzir áudio. <a href="midia/Inconsciente.mp3">Clique aqui para baixar o arquivo MP3.</a></p> 
+    </audio>-->
+</body>
+</html>

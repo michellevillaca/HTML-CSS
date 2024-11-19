@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Meu site com Imagens Dinâmicas</h1>
+    <p>A imagem a seguir adquire um formato dependendo da proporção da tela em que você está acessando esse site.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/praia-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/praia-m.jpg" type="image/jpg">
+        <img src="imagens/praia.jpg" alt="eu na praia foto grande">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Esta foi uma música produzida por IA, com a letra escrita por mim, do poema <em>Inconsciente</em>.</p>
+    <audio src="midia/Inconsciente.mp3" controls></audio>
+</body>
+</html>
