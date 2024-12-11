@@ -1,0 +1,160 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Fredericka+the+Great&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Indie+Flower&family=Lakki+Reddy&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Fredericka+the+Great&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Indie+Flower&family=Lakki+Reddy&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Fredericka+the+Great&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Indie+Flower&family=Lakki+Reddy&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-image: linear-gradient(180deg, #eae6d4, white);
+    background-attachment: fixed;
+    font-family: 'Nunito Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 25px;
+}
+h1#principal {
+    font-family: 'Alegreya SC', 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    text-indent: 0px;
+}
+h1 {
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+h2 {
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-indent: 30px;
+}
+h3 {
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-indent: 30px;
+}
+.center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.caixa {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px rgba(71, 71, 71, 0.823);
+    padding: 15px;
+    width: 300px;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: inline-block;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(71, 71, 71, 0.823);
+    padding: 15px;
+    width: auto;
+}
+a {
+    text-decoration: none;
+}
+.especial {
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+
+}
+li {
+    text-indent: -1px;
+    margin-left: 50px;
+}
+.sub {
+    font-size: 0.90em;
+    font-style: italic;
+    margin-left: 90px;
+}
+.inicio {
+    text-decoration: underline;
+    font-family: "Alegreya", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-align: center;
+}
+.tipo1 {
+    color: rgb(2, 183, 233);
+}
+.tipo1hover:hover {
+    background-color: rgb(2, 183, 233);
+    color: white;
+
+}
+.tipo2 {
+    color: rgb(251, 79, 174);
+}
+.tipo2hover:hover {
+    background-color: rgb(251, 79, 174);
+    color: white;
+}
+
+.tipo3 {
+    color: rgb(47, 112, 242);
+}
+.tipo3hover:hover {
+    background-color: rgb(47, 112, 242);
+    color: white;
+}
+
+.tipo4 {
+    color: rgb(170, 1, 208);
+}
+.tipo4hover:hover {
+    background-color: rgb(170, 1, 208);
+    color: white;
+}
+
+.tipo5 {
+    color: rgb(15, 169, 31);
+}
+.tipo5hover:hover {
+    background-color: rgb(15, 169, 31);
+    color: white;
+}
+
+.tipo6 {
+    color: rgb(226, 208, 7);
+}
+.tipo6hover:hover {
+    background-color: rgb(226, 208, 7);
+    color: white;
+}
+
+.tipo7 {
+    color: rgb(255, 85, 0);
+}
+.tipo7hover:hover {
+    background-color: rgb(255, 85, 0);
+    color: white;
+}
+
+.tipo8 {
+    color: rgb(255, 2, 2);
+}
+.tipo8hover:hover {
+    background-color: rgb(255, 2, 2);
+    color: white;
+}
+
+.tipo9 {
+    color: rgb(134, 223, 0);
+}
+.tipo9hover:hover {
+    background-color: rgb(134, 223, 0);
+    color: white;
+}

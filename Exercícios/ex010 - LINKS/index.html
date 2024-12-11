@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1><!--Link externo é aquele que aponta para outro site que não o nosso.-->
+    <p>Você pode acessar o <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público do Guanabara no GitHub</a>.</p> <!--Os comandos "target="_blank"" e "rel="external"" fazem com que o site externo abra em uma nova aba, e não em cima do meu site.-->
+    <p>Você também pode acessar o <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal no YouTube do Curso em Vídeo.</a></p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também <a href="pg002.html" rel="next">segunda página</a>.</p> <!--apertar Ctrl + Space para selecionar a página referida do meu arquivo interno (tem que estar na mesma pasta da página principal).-->
+    <p>Você também pode acessar a nossa <a href="news/pg003.html" target="_self" rel="next">página de notícias</a>.</p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>

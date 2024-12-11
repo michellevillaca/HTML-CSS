@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags e Semantic Tags</title>
+    <style>
+        .caixa {
+            border: 3px solid black;
+            padding: 5px 5px 15px 10px;
+            margin: 5px 5px 10px 10px;
+        }
+        aside {
+            display: inline;
+            padding: 10px;
+            margin: 5px 5px 5px 400px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header class="caixa">
+        <h1>Meu Site</h1>
+        <nav class="caixa">link link link...</nav>
+    </header>
+    <main class="caixa">
+        <section>
+            <article class="caixa">
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatem quo quod modi perferendis obcaecati cum rem neque dolore distinctio amet, dolorum consequuntur ex aliquam eos veritatis odit deleniti mollitia?</p>
+            </article>
+            <article class="caixa">
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, perspiciatis! Esse eum id sit veniam et itaque numquam vero voluptatibus quaerat, corporis maiores aperiam commodi neque autem animi adipisci. Minima?</p>
+                <aside>
+                    conteúdo periférico do site
+                </aside>
+            </article>
+        </section>
+        <aside>
+            conteúdo periférico do site
+        </aside>
+    </main>
+    <footer class="caixa">
+        conteúdo do rodapé
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Fundo circular que representa integração de diferentes áreas -->
+  <circle cx="200" cy="100" r="80" fill="#f0f0f0" />
+  
+  <!-- Livro aberto estilizado em roxo escuro -->
+  <path d="M160 70 L200 60 L240 70 L240 130 L200 140 L160 130 Z" fill="#4B0082" />
+  <path d="M200 60 L200 140" stroke="#fff" stroke-width="2" />
+  
+  <!-- Símbolos de código em um lado do livro -->
+  <text x="170" y="90" fill="#fff" font-family="monospace" font-size="12">&lt;/&gt;</text>
+  <text x="170" y="110" fill="#fff" font-family="monospace" font-size="12">{ }</text>
+  
+  <!-- Símbolos de linguagem no outro lado do livro -->
+  <text x="210" y="90" fill="#fff" font-family="monospace" font-size="12">A B</text>
+  <text x="210" y="110" fill="#fff" font-family="monospace" font-size="12">C D</text>
+  
+  <!-- Elementos decorativos -->
+  <circle cx="200" cy="100" r="85" fill="none" stroke="#4B0082" stroke-width="2" />
+  <circle cx="200" cy="100" r="87" fill="none" stroke="#4B0082" stroke-width="1" opacity="0.5" />
+</svg>
