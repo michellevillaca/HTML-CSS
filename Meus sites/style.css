@@ -106,11 +106,14 @@ main h1 {
     font-family: var(--fonte-subtitle);
     font-weight: 500;
     font-size: 1.75em;
+    text-indent: 30px;
 }
+
 main h2 {
-    color: var(--cor14);
+    color: var(--cor13);
     font-family: var(--fonte-subtitle);
-    font-weight: 400;
+    font-size: 1.1em;
+    font-weight: 200;
     text-indent: 30px;
 }
 main h3 {
@@ -120,7 +123,7 @@ main h3 {
 }
 
 main p {
-    margin: 15px 0px;
+    margin: 10px 0px;
     text-align: justify;
     text-indent: 30px;
     line-height: 1.8em;
@@ -136,22 +139,36 @@ main img {
     text-align: center;
     margin-left: 100px;
     border-radius: 7px;
-    box-shadow: 5px 5px 15px rgba(71, 71, 71, 0.823);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.253);
     padding: 15px;
     width: 300px;
 }
+
+div.principal {
+    background-color: var(--cor10);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.197);
+}
+
 div > p {
     display: none;
+    font-family: var(--fonte-texto);
+    font-size: 0.9em;
+    line-height: 1.5em;
 }
+
 div:hover > p {
-    display: inline-block;
+    display: block;
     background-color: white;
-    margin-left: 40px;
+    margin: auto;
+    margin: 10px 50px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(71, 71, 71, 0.823);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.226);
     padding: 15px;
-    width: auto;
 }
+
 a {
     text-decoration: none;
 }
