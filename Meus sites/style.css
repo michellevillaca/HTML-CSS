@@ -31,7 +31,7 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: var(--cor10);
     background-attachment: fixed;
     font-family: var(--fonte-texto);
     font-weight: lighter;
@@ -172,12 +172,24 @@ div:hover > p {
 a {
     text-decoration: none;
 }
+
+p {
+    padding-bottom: 20px;
+}
+
+hr {
+    margin: 20px 10px 40px 10px;
+}
+
 .especial {
+    display: inline-block;
     font-family: var(--fonte-subtitle);
     font-weight: 200;
     font-size: 1em;
+    text-align: center;
 
 }
+
 li {
     text-indent: -1px;
     margin-left: 50px;
@@ -195,13 +207,18 @@ li {
     text-align: center;
 }
 .tipo1 {
-    color: var(--cor1);
+    background-color: var(--cor1);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+    padding: 30px;
 }
-.tipo1hover:hover {
+
+.tipo1hover {
     background-color: var(--cor1);
     color: white;
-
 }
+
 .tipo2 {
     color: var(--cor2);
 }
