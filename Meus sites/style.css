@@ -42,6 +42,14 @@ body.tipo1bg {
     background-color: rgba(2, 183, 233, 0.26);
 }
 
+body.tipo2bg {
+    background-color: rgba(251, 79, 174, 0.264);
+}
+
+body.tipo3bg {
+    background-color: rgba(14, 150, 16, 0.253)
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor13), var(--cor14));
     min-height: 150px;
@@ -229,6 +237,10 @@ li {
 
 .tipo2 {
     background-color: var(--cor2);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo2hover:hover {
     background-color: var(--cor2);
@@ -236,7 +248,11 @@ li {
 }
 
 .tipo3 {
-    color: var(--cor3);
+    background-color: var(--cor3);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo3hover:hover {
     background-color: var(--cor3);
