@@ -168,6 +168,11 @@ main img {
     width: 100%;
 }
 
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
 .caixa {
     display: block;
     background-color: white;
@@ -299,49 +304,49 @@ li {
 }
 
 .tipo6 {
-    background-color: rgb(226, 208, 7);
+    background-color: var(--cor6);
     margin: 0px;
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
 }
 .tipo6hover:hover {
-    background-color: rgb(226, 208, 7);
+    background-color: var(--cor6);
     color: white;
 }
 
 .tipo7 {
-    background-color: rgb(255, 85, 0);
+    background-color: var(--cor7);
     margin: 0px;
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
 }
 .tipo7hover:hover {
-    background-color: rgb(255, 85, 0);
+    background-color: var(--cor7);
     color: white;
 }
 
 .tipo8 {
-    background-color: rgb(255, 2, 2);
+    background-color: var(--cor8);
     margin: 0px;
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
 }
 .tipo8hover:hover {
-    background-color: rgb(255, 2, 2);
+    background-color: var(--cor8);
     color: white;
 }
 
 .tipo9 {
-    background-color: rgb(134, 223, 0);
+    background-color: var(--cor9);
     margin: 0px;
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
 }
 .tipo9hover:hover {
-    background-color: rgb(134, 223, 0);
+    background-color: var(--cor9);
     color: white;
 }
