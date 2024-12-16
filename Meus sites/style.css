@@ -58,6 +58,22 @@ body.tipo5bg {
     background-color: rgba(47, 112, 242, 0.247);
 }
 
+body.tipo6bg {
+    background-color: rgba(226, 208, 7, 0.263);
+}
+
+body.tipo7bg {
+    background-color: rgba(255, 85, 0, 0.262);
+}
+
+body.tipo8bg {
+    background-color: rgba(255, 2, 2, 0.205);
+}
+
+body.tipo9bg {
+    background-color: rgba(250, 167, 14, 0.277);
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor13), var(--cor14));
     min-height: 150px;
@@ -283,7 +299,11 @@ li {
 }
 
 .tipo6 {
-    color: rgb(226, 208, 7);
+    background-color: rgb(226, 208, 7);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo6hover:hover {
     background-color: rgb(226, 208, 7);
@@ -291,7 +311,11 @@ li {
 }
 
 .tipo7 {
-    color: rgb(255, 85, 0);
+    background-color: rgb(255, 85, 0);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo7hover:hover {
     background-color: rgb(255, 85, 0);
@@ -299,7 +323,11 @@ li {
 }
 
 .tipo8 {
-    color: rgb(255, 2, 2);
+    background-color: rgb(255, 2, 2);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo8hover:hover {
     background-color: rgb(255, 2, 2);
@@ -307,7 +335,11 @@ li {
 }
 
 .tipo9 {
-    color: rgb(134, 223, 0);
+    background-color: rgb(134, 223, 0);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo9hover:hover {
     background-color: rgb(134, 223, 0);
