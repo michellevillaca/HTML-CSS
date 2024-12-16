@@ -287,6 +287,26 @@ nav > a.tipo1nava:hover {
     color: white;
 }
 
+.tipo2nav {
+    background-color: rgb(181, 60, 127);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo2nava {
+    color: rgb(253, 188, 224);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo2nava:hover {
+    background-color: rgb(253, 188, 224);
+    color: var(--cor2);
+}
+
 .tipo3 {
     background-color: var(--cor3);
     margin: 0px;
