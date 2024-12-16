@@ -11,7 +11,7 @@
     --cor1: rgb(2, 183, 233);
     --cor2: rgb(251, 79, 174);
     --cor3: rgb(14, 150, 16);
-    --cor4: rgb(170, 1, 208);
+    --cor4: rgb(125, 6, 184);
     --cor5: rgb(47, 112, 242);
     --cor6: rgb(226, 208, 7);
     --cor7: rgb(255, 85, 0);
@@ -48,6 +48,14 @@ body.tipo2bg {
 
 body.tipo3bg {
     background-color: rgba(14, 150, 16, 0.253)
+}
+
+body.tipo4bg {
+    background-color: rgba(180, 114, 255, 0.374);
+}
+
+body.tipo5bg {
+    background-color: rgba(47, 112, 242, 0.247);
 }
 
 header {
@@ -145,10 +153,10 @@ main img {
 }
 
 .caixa {
-    display: inline-block;
+    display: block;
     background-color: white;
     text-align: center;
-    margin-left: 100px;
+    margin: auto;
     border-radius: 7px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.253);
     padding: 15px;
@@ -190,15 +198,6 @@ p {
 
 hr {
     margin: 20px 10px 40px 10px;
-}
-
-.especial {
-    display: inline-block;
-    font-family: var(--fonte-subtitle);
-    font-weight: 200;
-    font-size: 1em;
-    text-align: center;
-
 }
 
 li {
@@ -260,7 +259,11 @@ li {
 }
 
 .tipo4 {
-    color: var(--cor4);
+    background-color: var(--cor4);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo4hover:hover {
     background-color: var(--cor4);
@@ -268,7 +271,11 @@ li {
 }
 
 .tipo5 {
-    color: var(--cor5);
+    background-color: var(--cor5);
+    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    padding: 30px;
 }
 .tipo5hover:hover {
     background-color: var(--cor5);
