@@ -251,6 +251,25 @@ li {
     padding: 30px;
 }
 
+.tipo1nav {
+    background-color: rgb(2, 146, 186);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo1nava {
+    color: rgb(179, 240, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo1nava:hover {
+    background-color: rgb(179, 240, 255);
+    color: var(--cor1);
+}
 .tipo1hover:hover {
     background-color: var(--cor1);
     color: white;
