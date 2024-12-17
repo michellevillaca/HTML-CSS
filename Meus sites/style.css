@@ -352,6 +352,26 @@ nav > a.tipo3nava:hover {
     color: white;
 }
 
+.tipo4nav {
+    background-color: rgb(76, 5, 111);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo4nava {
+    color: rgb(245, 225, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo4nava:hover {
+    background-color: rgb(245, 225, 255);
+    color: var(--cor4);
+}
+
 .tipo5 {
     background-color: var(--cor5);
     margin: 0px;
@@ -362,6 +382,26 @@ nav > a.tipo3nava:hover {
 .tipo5hover:hover {
     background-color: var(--cor5);
     color: white;
+}
+
+.tipo5nav {
+    background-color: rgb(29, 66, 140);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo5nava {
+    color: rgb(187, 210, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo5nava:hover {
+    background-color: rgb(187, 210, 255);
+    color: var(--cor5);
 }
 
 .tipo6 {
@@ -376,6 +416,26 @@ nav > a.tipo3nava:hover {
     color: white;
 }
 
+.tipo6nav {
+    background-color: rgb(121, 112, 5);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo6nava {
+    color: rgb(255, 250, 192);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo6nava:hover {
+    background-color: rgb(255, 250, 192);
+    color: var(--cor6);
+}
+
 .tipo7 {
     background-color: var(--cor7);
     margin: 0px;
@@ -386,6 +446,26 @@ nav > a.tipo3nava:hover {
 .tipo7hover:hover {
     background-color: var(--cor7);
     color: white;
+}
+
+.tipo7nav {
+    background-color: rgb(135, 45, 0);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo7nava {
+    color: rgb(255, 212, 191);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo7nava:hover {
+    background-color: rgb(255, 212, 191);
+    color: var(--cor7);
 }
 
 .tipo8 {
@@ -400,6 +480,26 @@ nav > a.tipo3nava:hover {
     color: white;
 }
 
+.tipo8nav {
+    background-color: rgb(132, 2, 2);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo8nava {
+    color: rgb(255, 198, 198);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo8nava:hover {
+    background-color: rgb(255,198,198);
+    color: var(--cor8);
+}
+
 .tipo9 {
     background-color: var(--cor9);
     margin: 0px;
@@ -410,4 +510,24 @@ nav > a.tipo3nava:hover {
 .tipo9hover:hover {
     background-color: var(--cor9);
     color: white;
+}
+
+.tipo9nav {
+    background-color: rgb(146, 98, 10);
+    margin: 0px;
+    padding: 10px;
+}
+
+nav > a.tipo9nava {
+    color: rgb(255, 230, 183);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a.tipo9nava:hover {
+    background-color: rgb(255, 230, 183);
+    color: var(--cor9);
 }
