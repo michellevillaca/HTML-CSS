@@ -194,20 +194,111 @@ div.principal {
 }
 
 div > p {
-    display: none;
     font-family: var(--fonte-texto);
     font-size: 0.9em;
     line-height: 1.5em;
+    margin: 2px 10px 10px 10px;
+    padding: 2px 20px 10px 22px;
+    text-indent: 0px;
 }
 
-div:hover > p {
-    display: block;
-    background-color: white;
-    margin: auto;
-    margin: 10px 50px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.226);
-    padding: 15px;
+div.tipo1hover:hover {
+    background-color: var(--cor1);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo1hover:hover h2 {
+    color: white;
+}
+
+div.tipo2hover:hover {
+    background-color: var(--cor2);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo2hover:hover h2 {
+    color: white;
+}
+
+div.tipo3hover:hover {
+    background-color: var(--cor3);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo3hover:hover h2 {
+    color: white;
+}
+
+div.tipo4hover:hover {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo4hover:hover h2 {
+    color: white;
+}
+
+div.tipo5hover:hover {
+    background-color: var(--cor5);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo5hover:hover h2 {
+    color: white;
+}
+
+div.tipo6hover:hover {
+    background-color: var(--cor6);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo6hover:hover h2 {
+    color: white;
+}
+
+div.tipo7hover:hover {
+    background-color: var(--cor7);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo7hover:hover h2 {
+    color: white;
+}
+
+div.tipo8hover:hover {
+    background-color: var(--cor8);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo8hover:hover h2 {
+    color: white;
+}
+
+div.tipo9hover:hover {
+    background-color: var(--cor9);
+    border-radius: 5px;
+    padding: 8px 0px 0px 2px;
+    color: white;
+}
+
+div.tipo9hover:hover h2 {
+    color: white;
 }
 
 a {
@@ -270,10 +361,6 @@ nav > a.tipo1nava:hover {
     background-color: rgb(179, 240, 255);
     color: var(--cor1);
 }
-.tipo1hover:hover {
-    background-color: var(--cor1);
-    color: white;
-}
 
 .tipo2 {
     background-color: var(--cor2);
@@ -281,10 +368,6 @@ nav > a.tipo1nava:hover {
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
-}
-.tipo2hover:hover {
-    background-color: var(--cor2);
-    color: white;
 }
 
 .tipo2nav {
@@ -313,10 +396,6 @@ nav > a.tipo2nava:hover {
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
-}
-.tipo3hover:hover {
-    background-color: var(--cor3);
-    color: white;
 }
 
 .tipo3nav {
@@ -347,10 +426,6 @@ nav > a.tipo3nava:hover {
     margin-bottom: -10px;
     padding: 30px;
 }
-.tipo4hover:hover {
-    background-color: var(--cor4);
-    color: white;
-}
 
 .tipo4nav {
     background-color: rgb(76, 5, 111);
@@ -378,10 +453,6 @@ nav > a.tipo4nava:hover {
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
-}
-.tipo5hover:hover {
-    background-color: var(--cor5);
-    color: white;
 }
 
 .tipo5nav {
@@ -411,10 +482,6 @@ nav > a.tipo5nava:hover {
     margin-bottom: -10px;
     padding: 30px;
 }
-.tipo6hover:hover {
-    background-color: var(--cor6);
-    color: white;
-}
 
 .tipo6nav {
     background-color: rgb(121, 112, 5);
@@ -442,10 +509,6 @@ nav > a.tipo6nava:hover {
     margin-top: -30px;
     margin-bottom: -10px;
     padding: 30px;
-}
-.tipo7hover:hover {
-    background-color: var(--cor7);
-    color: white;
 }
 
 .tipo7nav {
@@ -475,10 +538,6 @@ nav > a.tipo7nava:hover {
     margin-bottom: -10px;
     padding: 30px;
 }
-.tipo8hover:hover {
-    background-color: var(--cor8);
-    color: white;
-}
 
 .tipo8nav {
     background-color: rgb(132, 2, 2);
@@ -507,10 +566,7 @@ nav > a.tipo8nava:hover {
     margin-bottom: -10px;
     padding: 30px;
 }
-.tipo9hover:hover {
-    background-color: var(--cor9);
-    color: white;
-}
+
 
 .tipo9nav {
     background-color: rgb(146, 98, 10);
