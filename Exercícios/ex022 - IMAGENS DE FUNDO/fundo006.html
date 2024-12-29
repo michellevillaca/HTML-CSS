@@ -15,9 +15,10 @@
             background-attachment: fixed; /* scroll é o padrão (o fundo rola junto com o conteúdo); fixed é o fixo, que não rola junto com o conteúdo */
 
             /* shorthand - background: 
-                color > image > position > repeat > [size] > attachment */
+                color > image > position > repeat > [size] (no manual, está especificado o size nessa posição,mas o navegador não o está aceitando a shorthand, de modo que deve ser colocado separado)> attachment */
 
             background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
