@@ -11,7 +11,7 @@ html, body {
 }
 
 header {
-    background-color: rgb(206 206 206);
+    background-color: white;
     color: black;
     text-align: center;
 }
@@ -36,8 +36,8 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh; /* vh seria x% da view-height, ou seja, 10% da altura */
-    padding-bottom: 10vh;
+    padding-top: 12vh; /* vh seria x% da view-height, ou seja, 10% da altura */
+    padding-bottom: 12vh;
     line-height: 2em;
     padding-left: 30px;
 }
