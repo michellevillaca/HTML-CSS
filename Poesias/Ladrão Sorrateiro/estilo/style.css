@@ -35,9 +35,26 @@ a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh; /* vh seria x% da view-height, ou seja, 10% da altura */
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.496);
+    background-color: rgba(0, 0, 0, 0.581);
     color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.43);
 }
 
 section#img01 {
