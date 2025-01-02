@@ -68,9 +68,9 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 45vw;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.671);
-    padding: 10px 0px 10px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
