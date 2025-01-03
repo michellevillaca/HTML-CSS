@@ -14,11 +14,24 @@
             border-collapse: collapse;
         }
 
+        tr {
+            background-color: lightblue;
+        }
+
+        tr.linha {
+            background-color: yellow;
+        }
+
         td {
             border: 1px solid black;
             padding: 8px;
             text-align: center;
         }
+
+        td.dado {
+            background-color: magenta;
+        }
+
     </style>
 </head>
 <body>
@@ -35,7 +48,7 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr>
+        <tr class="linha">
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
@@ -46,7 +59,7 @@
             <td>C3</td>
         </tr>        
         <tr>
-            <td>A4</td>
+            <td class="dado">A4</td>
             <td>B4</td>
             <td>C4</td>
         </tr>
