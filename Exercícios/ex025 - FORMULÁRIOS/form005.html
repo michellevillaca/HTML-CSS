@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem" checked> <label for="isxfem">Feminino</label>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esbasq" id="iesbasq" checked> <label for="iesbasq">Basquete</label> <br>
+            <input type="checkbox" name="escam" id="iescam" checked> <label for="iescam">Caminhada</label> <br>
+            <input type="checkbox" name="escicl" id="iescicl" checked> <label for="iescicl">Ciclismo</label> <br>
+            <input type="checkbox" name="escorr" id="iescorr"> <label for="iescorr">Corrida</label> <br>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esgin" id="iesgin"> <label for="iesgin">Ginástica Olímpica</label> <br>
+            <input type="checkbox" name="eshand" id="ieshand"> <label for="ieshand">Handebol</label> <br>
+            <input type="checkbox" name="esjudo" id="iesjudo"> <label for="iesjudo">Judô</label> <br>
+            <input type="checkbox" name="esmusc" id="iesmusc"> <label for="iesmusc">Musculação</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="essurf" id="iessurf"> <label for="iessurf">Surfe</label> <br>
+            <input type="checkbox" name="estenis" id="iestenis"> <label for="iestenis">Tênis</label> <br>
+            <input type="checkbox" name="esoutro" id="iesoutro"> <label for="iesoutro">Outros: <input type="text"></label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
