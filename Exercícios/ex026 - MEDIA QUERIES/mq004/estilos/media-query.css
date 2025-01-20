@@ -2,3 +2,83 @@
 
 /* Todas as demais mídias */
 
+/* Typical Device Breakpoints:
+---------------------------------------
+
+- Extra small devices (celulares pequenos e telas menores): até 600px
+- Small devices (smartphones e portrait tablets): de 600px até 768px
+- Medium devices (landscape tablets): de 768px até 992px
+- Large devices (laptops/desktops): 992px até 1200px
+- Extra large devices (large laptops/desktops, TVs, etc.): acima de 1200px
+
+---------------------------------------
+*/
+
+@media print /* IMPRESSÃO */ {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+    
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Esssa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+/* @media screen and (max-width: 600px) {}
+@media  and (min-width: 600px) and (max-width:768px) {} ---> não utilizaremos essa configuração, pois ela já foi feita no style (principal) */
+
+@media screen and (min-width: 768px) and (max-width: 992px) /* TABLET */ {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) /* DESKTOP */ {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+
+}
+
+@media screen and (min-width: 1200px) /* GRANDES TELAS */{
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}
