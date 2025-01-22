@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints:
+---------------------------------------
+
+- Extra small devices (celulares pequenos e telas menores): até 600px
+- Small devices (smartphones e portrait tablets): de 600px até 768px
+- Medium devices (landscape tablets): de 768px até 992px
+- Large devices (laptops/desktops): 992px até 1200px
+- Extra large devices (large laptops/desktops, TVs, etc.): acima de 1200px
+
+---------------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+    span#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
