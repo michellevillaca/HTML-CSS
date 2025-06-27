@@ -15,14 +15,14 @@
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: -1;
 }
 
 .caixa2 {
     background-color: green;
     color: white;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: -1;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -31,7 +31,7 @@
     background-color: blue;
     color: white;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: -1;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: -1;
 }
