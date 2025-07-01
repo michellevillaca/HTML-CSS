@@ -1,0 +1,29 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.caixa1 {
+    background-color: red;
+    color: white;
+    grid-area: 1/1/2/5;
+}
+
+.caixa2 {
+    background-color: green;
+    color: white;
+    grid-area: 2/1/4/3;
+}
+
+.caixa3 {
+    background-color: blue;
+    color: white;
+    grid-area: 2/3/4/5;
+}
