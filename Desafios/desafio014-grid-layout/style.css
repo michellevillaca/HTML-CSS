@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+.container {
+    display: grid;
+    border: 1px black solid;
+    margin: 5px;
+    padding: 8px;
+    grid-template-rows: 50px 25px 600px 25px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
